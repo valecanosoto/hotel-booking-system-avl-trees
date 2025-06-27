@@ -1,0 +1,62 @@
+**  LÉEME - Proyecto Final: Sistema de reservas para una cadena hotelera  **
+
+			**  Alumna: Valeria Cano Soto  **
+
+
+** === Estructura del proyecto y organización de los archivos === **
+
+
+El proyecto está organizado dentro de la carpeta `codigo` con las siguientes subcarpetas:
+
+* `app/`:
+  Contiene las clases principales del sistema:
+
+  * `InicializadorDatos.java`: carga los datos iniciales de hoteles, habitaciones, usuarios y reservas.
+  * `SistemaHotel.java`: clase principal que lanza la aplicación.
+
+
+* `modelo/`:
+  Contiene las clases que representan las entidades del sistema:
+
+  * `Hotel.java`, `Habitacion.java`, `Usuario.java`, `Reserva.java`
+  * `GestorHoteles.java`, `GestorHabitaciones.java`, `GestorUsuarios.java`, `GestorReservas.java`
+
+
+* `estructuras/`:
+  Contiene implementaciones propias de estructuras de datos utilizadas:
+
+  * `ArbolAVL.java`, `ListaEnlazadaSimple.java`, `Nodo.java`, `TDABinaryTree.java`, `TDALista.java`
+
+
+* `comparadores/`:
+  Incluye las clases necesarias para realizar comparaciones personalizadas, utilizadas por los árboles AVL.
+
+
+* `pruebas/`:
+  Contiene clases con pruebas unitarias o funcionales para verificar la construcción de los árboles de hoteles y habitaciones.
+
+En resumen:
+
+|--- codigo
+        |--- app
+                  |--- InicializadorDatos.java
+                  |--- SistemaHotel.java
+        |--- comparadores
+                  |---   [...]
+        |--- estructuras
+                  |--- ArbolAVL.java
+                  |--- ListaEnlazadaSimple.java
+                  |--- Nodo.java
+                  |--- TDABinaryTree.java
+                  |--- TDALista.java
+        |--- modelo
+                  |--- GestorHabitaciones.java
+                  |--- GestorHoteles.java
+                  |--- GestorReservas.java
+                  |--- GestorUsuarios.java
+                  |--- Habitacion.java
+                  |--- Hotel.java
+                  |--- Reserva.java
+                  |--- Usuario.java
+        |--- pruebas
+                  |--- [...]

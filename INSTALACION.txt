@@ -1,0 +1,46 @@
+**  INSTALACIÓN - Proyecto Final: Sistema de reservas para una cadena hotelera  **
+
+			**  Alumna: Valeria Cano Soto  **
+
+
+** === Instrucciones para compilar y ejecutar el proyecto === **
+
+
+El proyecto fue desarrollado en Java sin librerías externas. Las clases se organizan en paquetes separados dentro de la carpeta raíz `codigo`.
+
+
+### 1. Abrir la terminal
+
+  * En Windows, abrir el "Símbolo del sistema" (CMD).
+  * En Linux, usar la terminal de su elección (bash, zsh, etc.).
+
+O, equivalentemente, hacerlo desde Visual Studio Code con `Ctrl + ñ`.
+
+
+### 2. Compilar el proyecto
+
+Ubicarse en la carpeta raíz del proyecto (`codigo`) y ejecutar:
+
+  * Para Windows:
+	
+	javac -encoding UTF-8 -d out app\*.java estructuras\*.java modelo\*.java comparadores\*.java
+
+  * Para Linux:
+	
+	javac -encoding UTF-8 -d out $(find . -name "*.java")
+
+
+### 3. Ejecutar el proyecto
+
+Igualmente, desde la raíz del proyecto, escribir:
+
+	java -cp out app.SistemaHotel
+
+---
+
+> Notas:
+
+- Todos los archivos están en codificación UTF-8.
+- La carpeta `out` se creará automáticamente si no existe. Si desea limpiar compilaciones anteriores, puedes eliminarla manualmente antes de compilar.
+- Consultar previamente el archivo LEEME.txt para conocer la estructura del proyecto.
+
