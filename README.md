@@ -47,29 +47,29 @@ Contiene pruebas funcionales o unitarias utilizadas durante el desarrollo.
 #### Estructura visual del proyecto:
 
 
-|--- codigo
-	|--- app
-                  |--- InicializadorDatos.java
-                  |--- SistemaHotel.java
-        |--- comparadores
-                  |---   [...]
-        |--- estructuras
-                  |--- ArbolAVL.java
-                  |--- ListaEnlazadaSimple.java
-                  |--- Nodo.java
-                  |--- TDABinaryTree.java
-                  |--- TDALista.java
-        |--- modelo
-                  |--- GestorHabitaciones.java
-                  |--- GestorHoteles.java
-                  |--- GestorReservas.java
-                  |--- GestorUsuarios.java
-                  |--- Habitacion.java
-                  |--- Hotel.java
-                  |--- Reserva.java
-                  |--- Usuario.java
-        |--- pruebas
-                  |--- [...]
+	|--- codigo
+		|--- app
+	                  |--- InicializadorDatos.java
+	                  |--- SistemaHotel.java
+	        |--- comparadores
+	                  |---   [...]
+	        |--- estructuras
+	                  |--- ArbolAVL.java
+	                  |--- ListaEnlazadaSimple.java
+	                  |--- Nodo.java
+	                  |--- TDABinaryTree.java
+	                  |--- TDALista.java
+	        |--- modelo
+	                  |--- GestorHabitaciones.java
+	                  |--- GestorHoteles.java
+	                  |--- GestorReservas.java
+	                  |--- GestorUsuarios.java
+	                  |--- Habitacion.java
+	                  |--- Hotel.java
+	                  |--- Reserva.java
+	                  |--- Usuario.java
+	        |--- pruebas
+	                  |--- [...]
 
 ---
 
