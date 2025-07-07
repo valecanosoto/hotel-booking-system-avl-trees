@@ -117,10 +117,10 @@ Igualmente, desde la raíz del proyecto, escribir:
 
 ## 👩‍💻 Autora
 
-Valeria Cano Soto
-valecanosoto@ciencias.unam.mx
-Facultad de Ciencias – UNAM
-Proyecto final para el curso de Estructuras de Datos
+Valeria Cano Soto  
+valecanosoto@ciencias.unam.mx  
+Facultad de Ciencias – UNAM  
+Proyecto final para el curso de Estructuras de Datos  
 Junio de 2025
 
 ---
