@@ -47,7 +47,8 @@ Contiene pruebas funcionales o unitarias utilizadas durante el desarrollo.
 #### Estructura visual del proyecto:
 
 |--- codigo
-        |--- app
+
+	|--- app
                   |--- InicializadorDatos.java
                   |--- SistemaHotel.java
         |--- comparadores
