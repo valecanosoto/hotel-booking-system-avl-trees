@@ -95,11 +95,11 @@ Ubicarse en la carpeta raíz del proyecto (`codigo`) y ejecutar:
 
   * Para Windows:  
 
-	javac -encoding UTF-8 -d out app\*.java estructuras\*.java modelo\*.java comparadores\*.java  
+		javac -encoding UTF-8 -d out app\*.java estructuras\*.java modelo\*.java comparadores\*.java  
 
   * Para Linux:  
 
-	javac -encoding UTF-8 -d out $(find . -name "*.java")  
+		javac -encoding UTF-8 -d out $(find . -name "*.java")  
 
 ### 3. Ejecutar el proyecto
 
