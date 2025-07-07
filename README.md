@@ -2,7 +2,7 @@
 
 ## 📝 Descripción general
 
-Este proyecto consistió en el desarrollo de un **sistema de reservas para una cadena hotelera con múltiples sucursales**, orientado a la **gestión eficiente de usuarios, habitaciones y reservas**. Fue implementado en Java utilizando estructuras de datos personalizadas, en particular **árboles AVL y listas enlazadas**, sin apoyo de librerías externas.
+Este proyecto consistió en el desarrollo de un **sistema de reservas para una cadena hotelera con múltiples sucursales**, orientado a la **gestión eficiente de usuarios, habitaciones y reservas**. Fue implementado en Java utilizando estructuras de datos personalizadas, en particular, **árboles AVL y listas enlazadas**, sin apoyo de librerías externas.
 
 El objetivo principal fue aplicar conceptos de **estructuras de datos, programación modular y comparadores personalizados**, integrando funcionalidades que simulan un entorno real de operación hotelera, como:
 
