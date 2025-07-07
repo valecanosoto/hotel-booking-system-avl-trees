@@ -46,7 +46,6 @@ Contiene pruebas funcionales o unitarias utilizadas durante el desarrollo.
 
 #### Estructura visual del proyecto:
 
-
 	|--- codigo
 		|--- app
 	                  |--- InicializadorDatos.java
@@ -90,22 +89,17 @@ Contiene pruebas funcionales o unitarias utilizadas durante el desarrollo.
 
 O, equivalentemente, hacerlo desde Visual Studio Code con `Ctrl + ñ`.
 
-
 ### 2. Compilar el proyecto
 
 Ubicarse en la carpeta raíz del proyecto (`codigo`) y ejecutar:
 
-  * Para Windows:
-
+  * Para Windows:  
 
 	javac -encoding UTF-8 -d out app\*.java estructuras\*.java modelo\*.java comparadores\*.java
 
-
-  * Para Linux:
-
+  * Para Linux:  
 
 	javac -encoding UTF-8 -d out $(find . -name "*.java")
-
 
 ### 3. Ejecutar el proyecto
 
@@ -117,8 +111,7 @@ Igualmente, desde la raíz del proyecto, escribir:
 
 ## 👩‍💻 Autora
 
-Valeria Cano Soto  
-valecanosoto@ciencias.unam.mx  
+Valeria Cano Soto (valecanosoto@ciencias.unam.mx)  
 Facultad de Ciencias – UNAM  
 Proyecto final para el curso de Estructuras de Datos  
 Junio de 2025
